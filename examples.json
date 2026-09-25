@@ -1,0 +1,97 @@
+[
+  {
+    "label": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+    "input": {
+      "tjc": 4,
+      "sjc": 3,
+      "pga": 5,
+      "ega": 4,
+      "pcr": 1.2
+    },
+    "expected": {
+      "raw": {
+        "cdai": 16,
+        "sdai": 17.2
+      },
+      "main": "16,0",
+      "level": "mid"
+    },
+    "originalInput": {
+      "tjc": 4,
+      "sjc": 3,
+      "pga": 5,
+      "ega": 4,
+      "pcr": 1.2
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+    "input": {
+      "tjc": 1,
+      "sjc": 0,
+      "pga": 1,
+      "ega": 0.5
+    },
+    "expected": {
+      "raw": {
+        "cdai": 2.5
+      },
+      "level": "low",
+      "verdict": "Remissão"
+    },
+    "originalInput": {
+      "tjc": 1,
+      "sjc": 0,
+      "pga": 1,
+      "ega": 0.5
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+    "input": {
+      "tjc": 3,
+      "sjc": 2,
+      "pga": 3,
+      "ega": 2
+    },
+    "expected": {
+      "raw": {
+        "cdai": 10
+      },
+      "level": "low",
+      "verdict": "Baixa atividade"
+    },
+    "originalInput": {
+      "tjc": 3,
+      "sjc": 2,
+      "pga": 3,
+      "ega": 2
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+    "input": {
+      "tjc": 10,
+      "sjc": 8,
+      "pga": 7,
+      "ega": 6
+    },
+    "expected": {
+      "raw": {
+        "cdai": 31
+      },
+      "level": "high",
+      "verdict": "Alta atividade"
+    },
+    "originalInput": {
+      "tjc": 10,
+      "sjc": 8,
+      "pga": 7,
+      "ega": 6
+    },
+    "expandedZeroOptions": []
+  }
+]
