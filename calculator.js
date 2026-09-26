@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-cdai-sdai · Elucenia · https://github.com/Elucenia/tool-cdai-sdai
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"cdai-sdai","title":"CDAI e SDAI","fields":[["tjc","Articulações dolorosas (de 28)","num",{"min":0,"max":28,"step":1,"ph":"4"}],["sjc","Articulações edemaciadas (de 28)","num",{"min":0,"max":28,"step":1,"ph":"3"}],["pga","Avaliação global pelo paciente","num",{"min":0,"max":10,"step":0.1,"unit":"0 a 10","ph":"5"}],["ega","Avaliação global pelo médico","num",{"min":0,"max":10,"step":0.1,"unit":"0 a 10","ph":"4"}],["pcr","PCR (para o SDAI)","num",{"min":0,"max":30,"step":0.01,"unit":"mg/dL","ph":"1,2","opt":true}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
