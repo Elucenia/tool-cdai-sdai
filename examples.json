@@ -1,6 +1,16 @@
 [
   {
-    "label": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+    "id": "cdai-sdai",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+    "originalInput": {
+      "tjc": 4,
+      "sjc": 3,
+      "pga": 5,
+      "ega": 4,
+      "pcr": 1.2
+    },
     "input": {
       "tjc": 4,
       "sjc": 3,
@@ -16,17 +26,37 @@
       "main": "16,0",
       "level": "mid"
     },
-    "originalInput": {
-      "tjc": 4,
-      "sjc": 3,
-      "pga": 5,
-      "ega": 4,
-      "pcr": 1.2
+    "recordedResult": {
+      "main": [
+        "16,0",
+        ""
+      ],
+      "label": "CDAI",
+      "raw": {
+        "cdai": 16,
+        "sdai": 17.2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+    "id": "cdai-sdai",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+    "originalInput": {
+      "tjc": 1,
+      "sjc": 0,
+      "pga": 1,
+      "ega": 0.5
+    },
     "input": {
       "tjc": 1,
       "sjc": 0,
@@ -40,16 +70,37 @@
       "level": "low",
       "verdict": "Remissão"
     },
-    "originalInput": {
-      "tjc": 1,
-      "sjc": 0,
-      "pga": 1,
-      "ega": 0.5
+    "recordedResult": {
+      "main": [
+        "2,5",
+        ""
+      ],
+      "label": "CDAI",
+      "raw": {
+        "cdai": 2.5,
+        "sdai": null
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+    "id": "cdai-sdai",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+    "originalInput": {
+      "tjc": 3,
+      "sjc": 2,
+      "pga": 3,
+      "ega": 2
+    },
     "input": {
       "tjc": 3,
       "sjc": 2,
@@ -63,16 +114,37 @@
       "level": "low",
       "verdict": "Baixa atividade"
     },
-    "originalInput": {
-      "tjc": 3,
-      "sjc": 2,
-      "pga": 3,
-      "ega": 2
+    "recordedResult": {
+      "main": [
+        "10,0",
+        ""
+      ],
+      "label": "CDAI",
+      "raw": {
+        "cdai": 10,
+        "sdai": null
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+    "id": "cdai-sdai",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+    "originalInput": {
+      "tjc": 10,
+      "sjc": 8,
+      "pga": 7,
+      "ega": 6
+    },
     "input": {
       "tjc": 10,
       "sjc": 8,
@@ -86,12 +158,24 @@
       "level": "high",
       "verdict": "Alta atividade"
     },
-    "originalInput": {
-      "tjc": 10,
-      "sjc": 8,
-      "pga": 7,
-      "ega": 6
+    "recordedResult": {
+      "main": [
+        "31,0",
+        ""
+      ],
+      "label": "CDAI",
+      "raw": {
+        "cdai": 31,
+        "sdai": null
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
