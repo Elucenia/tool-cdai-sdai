@@ -87,3 +87,31 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Atividade moderada pelo CDAI
+
+| Detalhes do resultado | |
+| --- | --- |
+| SDAI | 17,2 (atividade moderada) |
+
+
+### 2
+
+Remissão pelo CDAI
+
+
+### 3
+
+Baixa atividade pelo CDAI
+
+
+### 4
+
+Alta atividade pelo CDAI
+

@@ -1,0 +1,245 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "cdai-sdai",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "2cd5b134e7b438cc6c666bd515a43c09c4e8768b",
+    "oldEngineSha256": "791dbf3d2fc9c9a6bc55bfa7dfb2855c0796864086ce42db6f3b5172d1845859",
+    "currentEngineSha256": "56e0003eb060a270cc8ff5ac7be46869e2e729928f8bd2654373dcaca7ee2892"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+      "input": {
+        "tjc": 4,
+        "sjc": 3,
+        "pga": 5,
+        "ega": 4,
+        "pcr": 1.2
+      },
+      "publicOutput": {
+        "id": "cdai-sdai",
+        "main": [
+          "16,0",
+          ""
+        ],
+        "label": "CDAI",
+        "raw": {
+          "cdai": 16,
+          "sdai": 17.2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cdai": 16,
+          "sdai": 17.2
+        },
+        "main": "16,0",
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "16,0",
+          ""
+        ],
+        "label": "CDAI",
+        "level": "mid",
+        "verdict": "Atividade moderada pelo CDAI",
+        "rows": [
+          [
+            "SDAI",
+            "17,2 (atividade moderada)"
+          ]
+        ],
+        "raw": {
+          "cdai": 16,
+          "sdai": 17.2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+      "input": {
+        "tjc": 1,
+        "sjc": 0,
+        "pga": 1,
+        "ega": 0.5
+      },
+      "publicOutput": {
+        "id": "cdai-sdai",
+        "main": [
+          "2,5",
+          ""
+        ],
+        "label": "CDAI",
+        "raw": {
+          "cdai": 2.5,
+          "sdai": null
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cdai": 2.5
+        },
+        "level": "low",
+        "verdict": "Remissão"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2,5",
+          ""
+        ],
+        "label": "CDAI",
+        "level": "low",
+        "verdict": "Remissão pelo CDAI",
+        "rows": [],
+        "raw": {
+          "cdai": 2.5,
+          "sdai": null
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+      "input": {
+        "tjc": 3,
+        "sjc": 2,
+        "pga": 3,
+        "ega": 2
+      },
+      "publicOutput": {
+        "id": "cdai-sdai",
+        "main": [
+          "10,0",
+          ""
+        ],
+        "label": "CDAI",
+        "raw": {
+          "cdai": 10,
+          "sdai": null
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cdai": 10
+        },
+        "level": "low",
+        "verdict": "Baixa atividade"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10,0",
+          ""
+        ],
+        "label": "CDAI",
+        "level": "low",
+        "verdict": "Baixa atividade pelo CDAI",
+        "rows": [],
+        "raw": {
+          "cdai": 10,
+          "sdai": null
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+      "input": {
+        "tjc": 10,
+        "sjc": 8,
+        "pga": 7,
+        "ega": 6
+      },
+      "publicOutput": {
+        "id": "cdai-sdai",
+        "main": [
+          "31,0",
+          ""
+        ],
+        "label": "CDAI",
+        "raw": {
+          "cdai": 31,
+          "sdai": null
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cdai": 31
+        },
+        "level": "high",
+        "verdict": "Alta atividade"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "31,0",
+          ""
+        ],
+        "label": "CDAI",
+        "level": "high",
+        "verdict": "Alta atividade pelo CDAI",
+        "rows": [],
+        "raw": {
+          "cdai": 31,
+          "sdai": null
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    }
+  ]
+}

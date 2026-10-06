@@ -87,3 +87,31 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Attività moderata secondo il CDAI
+
+| Dettagli del risultato | |
+| --- | --- |
+| SDAI | 17,2 (attività moderata) |
+
+
+### 2
+
+Remissione secondo il CDAI
+
+
+### 3
+
+Bassa attività secondo il CDAI
+
+
+### 4
+
+Alta attività secondo il CDAI
+

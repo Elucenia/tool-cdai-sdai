@@ -87,3 +87,31 @@ tool.json 包含来源、版本和审查范围。examples.json 保留合成输�
 Apache-2.0 仅适用于 ELUCENIA 代码。工具、出版物、翻译和数据的权利仍归各自权利人所有。请保留 LICENSE 和 NOTICE。
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## 已记录的结果
+
+以下信息保留该方法对合成示例的输出，不构成独立的临床验证。
+
+### 1
+
+CDAI 显示中等活动度
+
+| 结果详情 | |
+| --- | --- |
+| SDAI | 17.2（中等活动度） |
+
+
+### 2
+
+CDAI 缓解
+
+
+### 3
+
+CDAI 显示低活动度
+
+
+### 4
+
+CDAI 显示高疾病活动度
+

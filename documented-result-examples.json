@@ -1,0 +1,674 @@
+{
+  "id": "cdai-sdai",
+  "implementationVersion": "cdai-sdai@native-2026-10-05+56e0003eb060",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "17,2 (atividade moderada)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atividade moderada pelo CDAI",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Remissão pelo CDAI",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Baixa atividade pelo CDAI",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Alta atividade pelo CDAI",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "en",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17.2 (moderate activity)",
+                "locale": "en",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Moderate activity by CDAI",
+            "locale": "en",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Remission by CDAI",
+            "locale": "en",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Low activity by CDAI",
+            "locale": "en",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "High disease activity by CDAI",
+            "locale": "en",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "es",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17,2 (actividad moderada)",
+                "locale": "es",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Actividad moderada por CDAI",
+            "locale": "es",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Remisión por CDAI",
+            "locale": "es",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Actividad baja por CDAI",
+            "locale": "es",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Alta actividad por CDAI",
+            "locale": "es",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "fr",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17,2 (activité modérée)",
+                "locale": "fr",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Activité modérée selon le CDAI",
+            "locale": "fr",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rémission selon le CDAI",
+            "locale": "fr",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Activité faible selon le CDAI",
+            "locale": "fr",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Activité élevée selon le CDAI",
+            "locale": "fr",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "de",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17,2 (mäßige Aktivität)",
+                "locale": "de",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Mäßige Aktivität nach CDAI",
+            "locale": "de",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Remission nach CDAI",
+            "locale": "de",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Niedrige Aktivität nach CDAI",
+            "locale": "de",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Hohe Krankheitsaktivität nach CDAI",
+            "locale": "de",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "it",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17,2 (attività moderata)",
+                "locale": "it",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Attività moderata secondo il CDAI",
+            "locale": "it",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Remissione secondo il CDAI",
+            "locale": "it",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Bassa attività secondo il CDAI",
+            "locale": "it",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Alta attività secondo il CDAI",
+            "locale": "it",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "ar",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "١٧٫٢ (نشاط متوسط)",
+                "locale": "ar",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نشاط متوسط حسب CDAI",
+            "locale": "ar",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "هدأة حسب CDAI",
+            "locale": "ar",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "نشاط منخفض حسب CDAI",
+            "locale": "ar",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "نشاط مرضي مرتفع بحسب CDAI",
+            "locale": "ar",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "zh",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17.2（中等活动度）",
+                "locale": "zh",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CDAI 显示中等活动度",
+            "locale": "zh",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI 缓解",
+            "locale": "zh",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI 显示低活动度",
+            "locale": "zh",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI 显示高疾病活动度",
+            "locale": "zh",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "ja",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17.2（中等度活動性）",
+                "locale": "ja",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CDAIによる中等度活動性",
+            "locale": "ja",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAIによる寛解",
+            "locale": "ja",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAIによる低活動性",
+            "locale": "ja",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI による高疾患活動性",
+            "locale": "ja",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "4 + 3 + 5 + 4: CDAI 16 (moderada); PCR 1,2 → SDAI 17,2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "SDAI",
+                "locale": "hi",
+                "template": "documented-authored-bc7a89f6579aa7985153"
+              },
+              "value": {
+                "text": "17.2 (मध्यम सक्रियता)",
+                "locale": "hi",
+                "template": "documented-authored-31d9e88babb4d8da97aa",
+                "sourceNumbers": [
+                  17.2
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CDAI के अनुसार मध्यम सक्रियता",
+            "locale": "hi",
+            "template": "documented-authored-8586b15374de43fb84f2"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "1 + 0 + 1 + 0,5: CDAI 2,5 (remissão)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI के अनुसार रोगमुक्ति",
+            "locale": "hi",
+            "template": "documented-authored-8107a22cc8777d2e961e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "3 + 2 + 3 + 2: CDAI 10 (limite da baixa atividade)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI के अनुसार कम सक्रियता",
+            "locale": "hi",
+            "template": "documented-authored-2f45d2620bbc7dbbf45c"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "10 + 8 + 7 + 6: CDAI 31 (alta)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "CDAI के अनुसार उच्च रोग गतिविधि",
+            "locale": "hi",
+            "template": "documented-authored-206981e707d8707169e3"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

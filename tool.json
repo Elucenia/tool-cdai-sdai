@@ -171,7 +171,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "SDAI/Smolen 2003 e CDAI/Aletaha 2005:28 articulações; globais 0–10; PCRmg/d L somente SDAI",
-    "implementationVersion": "cdai-sdai@native-2026-10-03+791dbf3d2fc9",
+    "implementationVersion": "cdai-sdai@native-2026-10-05+56e0003eb060",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/12595618/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -317,7 +317,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "791dbf3d2fc9c9a6bc55bfa7dfb2855c0796864086ce42db6f3b5172d1845859"
+      "implementationHash": "56e0003eb060a270cc8ff5ac7be46869e2e729928f8bd2654373dcaca7ee2892",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "cdai-sdai@native-2026-10-03+791dbf3d2fc9",
+          "previousImplementationHash": "791dbf3d2fc9c9a6bc55bfa7dfb2855c0796864086ce42db6f3b5172d1845859",
+          "implementationHash": "56e0003eb060a270cc8ff5ac7be46869e2e729928f8bd2654373dcaca7ee2892",
+          "scientificBodySha256": "130827c5185621d62fed5edf4d6bc048eef07d32db94b1764bd4e655f2bca093",
+          "metadataContractHash": "22c066e1832915f97543dc19ed993564f51b27abc536f0716cd854bb2b5a6641",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O SDAI de 2003 foi estudado para atividade e resposta ao tratamento da artrite reumatoide, com contagem de 28 articulações, avaliações globais em escala 0–10 e PCR em mg/dL. Não é um teste diagnóstico isolado de artrite reumatoide. O CDAI sem PCR e os cortes de atividade pertencem às respectivas variantes e precisam ser conferidos nas fontes específicas.",
     "sourceLimitEvidence": {
@@ -336,15 +364,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/cdai-sdai/calculator.js",
-    "bytes": 5041,
-    "sha256": "791dbf3d2fc9c9a6bc55bfa7dfb2855c0796864086ce42db6f3b5172d1845859"
+    "bytes": 5246,
+    "sha256": "56e0003eb060a270cc8ff5ac7be46869e2e729928f8bd2654373dcaca7ee2892"
   },
-  "sourceToolSha256": "fa314340b7d53766e4107d71f731e743b8fcd2a9d3eff4c8364113959d351278",
+  "sourceToolSha256": "09ce3a5d1120746966ed46f5c22629cd5c0ab7a381a9cdbce4fbdb42762fd371",
   "omittedFullReferenceBanks": [
     {
       "rows": 3,
       "sha256": "5ce6de3486aed88a0a769caa83b2016a7b294ed79fe71c62a14d106318903b9d",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

@@ -87,3 +87,31 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Moderate activity by CDAI
+
+| Result details | |
+| --- | --- |
+| SDAI | 17.2 (moderate activity) |
+
+
+### 2
+
+Remission by CDAI
+
+
+### 3
+
+Low activity by CDAI
+
+
+### 4
+
+High disease activity by CDAI
+
